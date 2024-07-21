@@ -1,0 +1,39 @@
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  right: 30px;
+  background-color: #278ee8;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+.label-cta {
+  position: fixed;
+  bottom: 43px;
+  right: 100px;
+  padding: 5px;
+  background: rgb(226, 226, 226);
+  z-index: 100;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+/* RESPONSIVE */
+@media only screen and (min-width: 300px) and (max-width: 750px) {
+  .float {
+    bottom: 98px;
+    right: 13px;
+  }
+  .label-cta {
+    bottom: 110px;
+    right: 80px;
+  }
+}

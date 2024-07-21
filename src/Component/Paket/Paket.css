@@ -1,0 +1,112 @@
+.super-parent-paket {
+    margin-top: 30px;
+}
+.title-paket {
+    margin: 0 !important;
+    text-align: center;
+}
+.title-paket-2 {
+    margin: 0 !important;
+    text-align: center;
+    color: #00659c;
+}
+.deskripsi-paket {
+    text-align: center;
+    font-size: 20px;
+    margin: 0 !important;
+}
+.parent-paket {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10px;
+    margin-top: 40px;
+}
+.card-paket {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border: 2px solid #0099eb4e;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.card-paket:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    scale: 0.9;
+    transition: all 0.5s;
+}
+.bullet-paket {
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    gap: 5px;
+    list-style: none;
+    color: rgb(111, 111, 111);
+    font-weight: 500;
+}
+p {
+    margin: 0;
+}
+.icon-check {
+    color: rgb(0, 175, 111);
+}
+.icon-close {
+    color: rgb(255, 0, 85);
+}
+.btn-pilih-paket {
+    background: #01679d;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    border: 1px solid transparent;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.parent-rincian {
+    display: grid;
+    gap: 10px;
+    margin-top: 13px;
+}
+.other-rincian {
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.btn-diskon {
+    background: #007bbe;
+    color: white;
+    border: 1px solid transparent;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.harga-dan-diskon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.parent-umkm {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.btn-paling-laris {
+    border: 1px solid transparent;
+    background: rgb(255, 2, 86);
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px 0 20px 0 ;
+}
+
+/* RESPONSIVE */
+@media only screen and (min-width: 300px) and (max-width: 750px) {
+    .parent-paket {
+        display: grid;
+    }
+}

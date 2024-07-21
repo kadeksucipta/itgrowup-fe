@@ -1,0 +1,14 @@
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: "Poppins", sans-serif;
+}
+
+/* RESPONSIVE */
+@media only screen and (min-width: 300px) and (max-width: 750px) {
+    .container {
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 5%;
+    }
+}

@@ -1,0 +1,68 @@
+.card {
+  background-image: url(../../assets/layanan/bg_layanan.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  width: 20%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+.img-layanan {
+    width: 60%;
+}
+.super-parent-layanan {
+    background: rgba(215, 215, 215, 0.536);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.085) 0px 3px 8px;
+}
+.parent-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.title-layanan {
+    font-size: 20px;
+    margin: 0 !important;
+    line-height: 25px;
+}
+.btn-layanan {
+    width: 80%;
+}
+.parent-title-layanan {
+    margin: 0 !important;
+    margin-left: 60px !important;
+    margin-bottom: 10px !important;
+}
+.paragraf-layanan {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* RESPONSIVE */
+@media only screen and (min-width: 300px) and (max-width: 750px) {
+    .card {
+        width: 40%;
+    }
+    .parent-card {
+        gap: 15px;
+    }
+    br {
+        display: none;
+    }
+    .title-layanan {
+        font-size: 17px;
+    }
+    .parent-title-layanan {
+        font-size: 25px;
+        margin-left: 10px !important;
+    }
+    .super-parent-layanan {
+        margin-top: 20px;
+    }
+}

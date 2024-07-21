@@ -1,0 +1,49 @@
+.super-parent-keunggulan {
+    background: #00659c;
+    border-radius: 15px;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+.parent-keunggulan {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 50px;
+}
+.card-keunggulan {
+    background: rgb(255, 255, 255);
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+.icon-keunggulan {
+    width: 40%;
+}
+.title-card-keunggulan {
+    background: rgba(229, 229, 229, 0.493);
+}
+.paragraf-card-keunggulan {
+    background: rgba(229, 229, 229, 0.508);
+}
+.title-keunggulan {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.paragraf-keunggulan {
+    color: white;
+    text-align: center;
+}
+
+/* RESPONSIVE */
+@media only screen and (min-width: 300px) and (max-width: 750px) {
+    .parent-keunggulan {
+        padding: 10px;
+    }
+    .card-keunggulan {
+        width: 100%;
+    }
+}
